@@ -20,3 +20,16 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/eduwifi.git
 cd eduwifi
 make
 sudo make install
+
+```
+# To run Eduwifi after installation
+
+```bash
+sudo eduwifi
+```
+#To remove the installed binary
+```bash
+make clean
+```
+
+
