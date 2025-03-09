@@ -14,9 +14,10 @@ Eduwifi is a lightweight, terminal-based utility for configuring **eduroam crede
 To install Eduwifi manually, run the following commands:
 
 git clone https://github.com/YOUR_GITHUB_USERNAME/eduwifi.git
-cd eduwifi
-make
-sudo make install
+
+- **cd eduwifi**
+- **make**
+- **sudo make install**
 
 ## Usage
 
