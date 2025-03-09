@@ -8,6 +8,12 @@ Eduwifi is a lightweight, terminal-based utility for configuring **eduroam crede
 - **MAC Address Randomization:** Optionally changes the MAC address before connecting for increased privacy.  
 - **Interactive Menu:** Navigate options using the **arrow keys** for an intuitive experience.  
 - **Step-by-Step Connection Guide:** Provides clear instructions for manually connecting via `iwctl`.  
+## Preequesite
+**for arch linux** 
+
+```bash
+sudo pacman -S macchanger
+```
 
 ## Installation
 
