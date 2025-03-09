@@ -55,11 +55,16 @@ After saving credentials, you must manually connect using `iwctl`:
 ## iwctl
 
 Inside `iwctl`, run:
+```bash
 
-- station wlan0 scan
-- station wlan0 get-networks
-- station wlan0 connect eduroam
-
+station wlan0 scan
+```
+```bash
+station wlan0 get-networks
+```
+```bash
+station wlan0 connect eduroam
+```
 Then enter your **full school email** and **password** when prompted.
 
 ## Uninstallation
