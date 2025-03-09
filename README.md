@@ -70,22 +70,22 @@ Then enter your **full school email** and **password** when prompted.
 ## Uninstallation
 
 To remove the installed binary:
-
+```bash
 make clean
-
+```
 ## Troubleshooting
 
 If you experience **permission issues**, ensure:
 
 - You are running Eduwifi with `sudo`.  
 - `iwd` is installed and running:
-
+```bash
   sudo systemctl start iwd
-
+```
 - To enable `iwd` to start on boot, run:
-
+```bash
   sudo systemctl enable iwd
-
+```
 ## Contributing
 
 Pull requests and feature suggestions are welcome! Open an **issue** if you encounter bugs or have ideas for improvements.
