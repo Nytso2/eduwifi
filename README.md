@@ -4,10 +4,10 @@ Eduwifi is a lightweight, terminal-based utility for configuring **eduroam crede
 
 ## Features
 
-- **Secure Wi-Fi Configuration:** Easily stores and manages eduroam credentials for `iwd`.
-- **MAC Address Randomization:** Optionally changes the MAC address before connecting for increased privacy.
-- **Interactive Menu:** Navigate options using the **arrow keys** for an intuitive experience.
-- **Step-by-Step Connection Guide:** Provides clear instructions for manually connecting via `iwctl`.
+- **Secure Wi-Fi Configuration:** Easily stores and manages eduroam credentials for `iwd`.  
+- **MAC Address Randomization:** Optionally changes the MAC address before connecting for increased privacy.  
+- **Interactive Menu:** Navigate options using the **arrow keys** for an intuitive experience.  
+- **Step-by-Step Connection Guide:** Provides clear instructions for manually connecting via `iwctl`.  
 
 ## Installation
 
@@ -25,16 +25,17 @@ After installation, you can run Eduwifi using:
 sudo eduwifi
 
 ### Menu Options:
-- Change MAC address & set credentials  
-- Set credentials only (no MAC change)  
+
+- **Change MAC address & set credentials**  
+- **Set credentials only (no MAC change)**  
 
 Use the **arrow keys** to navigate and **press Enter** to select an option.
 
 ## Entering Credentials
 
-- Enter your **eduroam username** (e.g., `yourname@university.edu`).
-- Enter your **Wi-Fi password** (input is hidden for security).
-- Eduwifi securely saves your credentials in `/var/lib/iwd/eduroam.8021x`.
+- Enter your **eduroam username** (e.g., `yourname@university.edu`).  
+- Enter your **Wi-Fi password** (input is hidden for security).  
+- Eduwifi securely saves your credentials in `/var/lib/iwd/eduroam.8021x`.  
 
 ## Manually Connecting to Eduroam
 
@@ -60,7 +61,7 @@ make clean
 
 If you experience **permission issues**, ensure:
 
-- You are running Eduwifi with `sudo`.
+- You are running Eduwifi with `sudo`.  
 - `iwd` is installed and running:
 
   sudo systemctl start iwd
