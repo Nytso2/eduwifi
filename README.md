@@ -27,7 +27,7 @@ sudo make install
 ```bash
 sudo eduwifi
 ```
-#To remove the installed binary
+# To remove the installed binary
 
 ```bash
 make clean
