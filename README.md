@@ -16,11 +16,17 @@ Eduwifi is a lightweight, terminal-based utility for configuring **eduroam crede
 ```bash
 
 git clone https://github.com/YOUR_GITHUB_USERNAME/eduwifi.git
+```
+```bash
 
-- **cd eduwifi**
-- **make**
-- **sudo make install**
+- cd eduwifi
+```
+```bash
+- make
+```
+```bash
 
+- sudo make install
 ```
 ## Usage
 
