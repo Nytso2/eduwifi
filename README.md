@@ -24,7 +24,7 @@ After installation, you can run Eduwifi using:
 
 sudo eduwifi
 
-Menu Options:
+### Menu Options:
 - Change MAC address & set credentials  
 - Set credentials only (no MAC change)  
 
