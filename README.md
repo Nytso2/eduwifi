@@ -41,13 +41,13 @@ Use the **arrow keys** to navigate and **press Enter** to select an option.
 
 After saving credentials, you must manually connect using `iwctl`:
 
-iwctl
+## iwctl
 
 Inside `iwctl`, run:
 
-station wlan0 scan
-station wlan0 get-networks
-station wlan0 connect eduroam
+- station wlan0 scan
+- station wlan0 get-networks
+- station wlan0 connect eduroam
 
 Then enter your **full school email** and **password** when prompted.
 
