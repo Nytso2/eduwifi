@@ -31,9 +31,10 @@ sudo make install
 ## Usage
 
 After installation, you can run Eduwifi using:
+```bash
 
 sudo eduwifi
-
+```
 ### Menu Options:
 
 - **Change MAC address & set credentials**  
